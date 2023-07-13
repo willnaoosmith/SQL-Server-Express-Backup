@@ -24,7 +24,7 @@ It will work on any version of SQL server, but since the Express version doesn't
 
   - Install nuitka using `pip install nuitka3`
   
-  - Compile it using, for example, this command: `nuitka --show-progress --onefile "Backup SQL Server Express.py" --onefile --output-filename=Backup.exe --mingw64 --remove-output`
+  - Compile it using, for example, this command: `nuitka --show-progress --onefile "Backup SQL Server Express.py" --windows-disable-cmd --onefile --output-filename=Backup.exe --mingw64 --remove-output`
 
 6. Create a recurrent task using Windows Task scheduler. You can read and tutorial [here](https://www.windowscentral.com/how-create-automated-task-using-task-scheduler-windows-10).
 
